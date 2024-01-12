@@ -180,3 +180,10 @@ body {
   margin-left: 1rem;
   align-items: center;
 }
+
+@media screen and (max-width: 500px) {
+  .navigation {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
